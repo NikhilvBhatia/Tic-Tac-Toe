@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Honk&family=Jersey+10&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 id="heading">Tic Tac Toe</h1>
+        <div class="msgcontainer hide">
+            <p id="msg">winner</p>
+        </div>
+        <div class="container">
+            <div class="score-box">
+                <h3>X score</h3>
+                <h4 id="score-x">0</h4>
+            </div>
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+            <div class="score-box">
+                <h3>O score</h3>
+                <h4 id="score-o">0</h4>
+            </div>
+        </div>
+        <button type="reset" class="reset-btn">Reset Game</button>
+        <button type="reset" class="new-btn">Start a New Game</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
